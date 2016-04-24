@@ -1,0 +1,64 @@
+body > div {
+    width: 404px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.header {
+    margin-bottom: 5px;
+}
+
+.header input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.highlight {
+    background-color: orange;
+}
+
+.numberFields {
+    margin: 0;
+    width: 360px;
+    font-size:0;
+    overflow: auto;
+    float: left;
+}
+
+.numberFields input {
+    background-color: green;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+}
+
+.numberFields input[name="0"] {
+    width: 360px;
+}
+
+.operations {
+    margin-left: 4px;
+    width: 40px;
+    font-size: 0;
+    display: inline-block;
+}
+
+.operations input {
+    background-color: purple;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.sum {
+    margin-top: 5px;
+}
+
+.sum input {
+    background-color: orange;
+    border: 1px solid black;
+    width: 404px;
+    height: 40px;
+}
